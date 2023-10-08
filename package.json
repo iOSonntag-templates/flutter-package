@@ -1,0 +1,20 @@
+{
+	"name": "ci-helper",
+	"version": "1.0.0",
+	"description": "Just a tiny helper for the CI/CD process.",
+	"scripts": {
+		"semantic-release": "semantic-release"
+	},
+	"keywords": [],
+	"author": {
+		"name": "iOSonntag",
+		"url": "https://iOSonntag.com"
+	},
+	"homepage": "https://iOSonntag.com",
+	"license": "MIT",
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/exec": "^6.0.3",
+		"@semantic-release/git": "^10.0.1"
+	}
+}
