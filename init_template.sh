@@ -14,6 +14,10 @@ echo "Adding 'init_template.sh' to .vscode/settings.json "files.exclude" map..."
 sed -i '' 's/"files.exclude": {/"files.exclude": {\n\t"init_template.sh": true,/g' .vscode/settings.json
 
 echo "Replacing README.md with flutter template README.md..."
+echo "The templates README.md is now README_TEMPLATE.md (but hidden via .vscode/settings.json 'files.exclude' map)."
 mv README.md README_TEMPLATE.md
 mv README_FLUTTER.md README.md
-echo "Done! The templates README.md is now README_TEMPLATE.md (but hidden via .vscode/settings.json 'files.exclude' map)."
+
+echo ""
+echo "Template initialized!"
+
